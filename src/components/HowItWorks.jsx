@@ -36,7 +36,7 @@ const HowItWorks = () => {
 
         <div className="flex flex-col items-center">
           <h2 className="hiw-title">
-            A17 Pro chip.
+            A18 Pro chip.
             <br /> A monster win for gaming.
           </h2>
 
@@ -60,25 +60,19 @@ const HowItWorks = () => {
                 </video>
               </div>
           </div>
-          <p className="text-gray font-semibold text-center mt-3">Honkai: Star Rail</p>
+          <p className="text-gray font-semibold text-center mt-3">Honey</p>
           </div>
 
           <div className="hiw-text-container">
                 <div className="flex flex-1 justify-center flex-col">
                   <p className="hiw-text g_fadeIn">
-                    A17 Pro is an entirely new class of iPhone chip that delivers our {' '}
+                  The A18 processor is Apple's latest innovation, delivering incredible performance with enhanced efficiency. {' '}
                     <span className="text-white">
-                      best graphic performance by far
+                    Built on advanced 3nm technology, it offers improved AI capabilities, faster graphics, and exceptional battery optimization for next-gen devices
                     </span>.
                   </p>
 
-                  <p className="hiw-text g_fadeIn">
-                   Mobile {' '}
-                    <span className="text-white">
-                      games will look and feel so immersive
-                    </span>,
-                     with incredibly detailed environments and characters.
-                  </p>
+                  
                 </div>
               
 

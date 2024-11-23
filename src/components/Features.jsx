@@ -64,25 +64,19 @@ const Features = () => {
               <div className="feature-text-container">
                 <div className="flex-1 flex-center">
                   <p className="feature-text g_text">
-                    iPhone 15 Pro is {' '}
+                  iPhone 16 Pro is {' '}
                     <span className="text-white">
-                      the first iPhone to feature an aerospace-grade titanium design
-                    </span>,
-                    using the same alloy that spacecrafts use for missions to Mars.
+                    iPhone 16 Pro gives you longer battery life — and iPhone 16 Pro Max delivers the best battery life ever on an iPhone. How? An optimized internal design fits larger batteries, which work together with the A18 Pro chip to deliver incredibly power-efficient performance. Even with so many new capabilities.
+                    </span>
+                    
                   </p>
                 </div>
 
                 <div className="flex-1 flex-center">
                   <p className="feature-text g_text">
-                    Titanium has one of the best strength-to-weight ratios of any metal, making these our {' '}
-                    <span className="text-white">
-                      lightest Pro models ever.
-                    </span>
-                    You'll notice the difference the moment you pick one up.
+                  Snap on a new MagSafe charger for even faster wireless charging6 — up to 25W with a 30W power adapter or higher, enabling up to 50% charge in around 30 minutes.
                   </p>
                 </div>
-
-
               </div>
             </div>
           </div>
