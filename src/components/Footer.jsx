@@ -7,35 +7,37 @@ const Footer = () => {
       <div className="screen-max-width">
         <div>
           <p className="font-semibold text-gray text-xs">
-            More ways to shop: {' '}
-            <span className="underline text-blue">
-            Find an Apple Store {' '}
-            </span>
-            or {' '}
-            <span className="underline text-blue">
-            other retailer
-            </span>{' '}
+            More ways to shop:{' '}
+            <a href="#" className="underline text-blue hover:text-blue-600 transition-colors">
+              Find an Apple Store{' '}
+            </a>
+            or{' '}
+            <a href="#" className="underline text-blue hover:text-blue-600 transition-colors">
+              other retailer
+            </a>{' '}
             near you.
           </p>
           <p className="font-semibold text-gray text-xs">
-            Or call 000800-040-1966
+            Or call <a href="tel:000800-040-1966" className="hover:underline">000800-040-1966</a>
           </p>
         </div>
 
-        <div className="bg-neutral-700 my-5 h-[1px] w-full" />
+        <hr className="border-neutral-700 my-5" />
 
-        <div className="flex md:flex-row flex-col md:items-center justify-between">
-          <p className="font-semibold text-gray text-xs">Copright @ 2024 Apple Inc. All rights reserved.</p>
-          <div className="flex">
+        <div className="flex md:flex-row flex-col md:items-center justify-between gap-4">
+          <p className="font-semibold text-gray text-xs">Copyright © 2024 Apple Inc. All rights reserved.</p>
+          <nav className="flex flex-wrap gap-2">
             {footerLinks.map((link, i) => (
-              <p key={link} className="font-semibold text-gray text-xs">
-                {link}{' '}
+              <React.Fragment key={link}>
+                <a href="#" className="font-semibold text-gray text-xs hover:underline">
+                  {link}
+                </a>
                 {i !== footerLinks.length - 1 && (
-                  <span className="mx-2"> | </span>
+                  <span className="text-gray text-xs">|</span>
                 )}
-              </p>
+              </React.Fragment>
             ))}
-          </div>
+          </nav>
         </div>
       </div>
     </footer>
